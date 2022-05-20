@@ -10,6 +10,6 @@ export default axios.create({
     },
     headers: {
         'X-RapidAPI-Host': 'streaming-availability.p.rapidapi.com',
-        'X-RapidAPI-Key': 'ae9171a8fbmsh26e3b73616d4dc1p1e51f1jsnd4121cd446e0'
+        'X-RapidAPI-Key': ''
     }
 });

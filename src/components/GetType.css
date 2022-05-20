@@ -1,0 +1,32 @@
+#splitScreenDecision {
+    display: flex;
+}
+
+#pickMovie,
+#pickShow {
+    display: flex;
+    background-color: white;
+    height: 100vh;
+    width: 50%;
+    justify-content: center;
+    transition: all 1.2s;
+    text-decoration: none;
+    color: black;
+}
+
+#pickMovie div,
+#pickShow div {
+    margin: 45%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+#pickMovie:hover,
+#pickShow:hover {
+    opacity: 90%;
+    background-color: black;
+    color: red;
+    letter-spacing: 1.1em;
+}

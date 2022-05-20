@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+
+#title {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    font-size: 2.5em;
+    letter-spacing: 1.1em;
+}
+
+#subtitle {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    letter-spacing: 0.15em;
+}
+
+#startButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 5% 40% 0 40%;
+    font-size: 1em;
+}
+
+#startButton button {
+    padding: 8px 45px 8px 45px;
+    cursor: pointer;
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    background: white;
+    color: black;
+    background: linear-gradient(to right, black 0%, black 50%, white 50%, white 100%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position 1s, color 1s;
+}
+
+
+#startButton button:hover {
+    background-position: 0 0;
+    color: red;
+}

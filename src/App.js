@@ -4,11 +4,12 @@ import GetType from "./components/GetType";
 import Main from "./components/Main";
 import GetService from "./components/GetService";
 import GetResults from "./components/GetResults";
+import './App.css';
 
 
 const App = () => {
     return (
-        <div>
+        <div id='App'>
             <BrowserRouter>
                 <div>
                     <Routes>

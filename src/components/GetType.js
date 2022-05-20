@@ -2,6 +2,7 @@ import React from "react";
 import { connect, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { getType } from "../actions";
+import './GetType.css';
 
 const GetType = () => {
 
@@ -19,16 +20,19 @@ const GetType = () => {
 
 
     return (
-        <div>
+        <div id='splitScreenDecision'>
 
-            <Link to='/service'>
-                <button onClick={pickedMovie}>Movie</button>
+            <Link to='/service' id='pickMovie'>
+                <div onClick={pickedMovie}>
+                    <h1>Movie</h1>
+                </div>
             </Link>
 
-            <div>
-                <h3>Show</h3>
-                <button onClick={pickedShow}>Show</button>
-            </div>
+            <Link to='/service' id='pickShow'>
+                <div onClick={pickedShow}>
+                    <h1>Show</h1>
+                </div>
+            </Link>
 
 
         </div>
