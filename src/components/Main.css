@@ -4,7 +4,7 @@ body {
 
 
 #title {
-    color: red;
+    color: rgb(31, 199, 177);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,6 +14,7 @@ body {
 }
 
 #subtitle {
+    color: rgb(31, 199, 177);
     margin-top: 5%;
     display: flex;
     justify-content: center;
@@ -27,25 +28,28 @@ body {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    margin: 5% 40% 0 40%;
-    font-size: 1em;
+    margin: 5% 38% 0 38%;
+    font-size: 0.9rem;
 }
 
 #startButton button {
     padding: 8px 45px 8px 45px;
     cursor: pointer;
     font-size: 1em;
-    letter-spacing: 0.15em;
-    background: white;
+    letter-spacing: 0.1em;
+    background: #454140;
     color: black;
-    background: linear-gradient(to right, black 0%, black 50%, white 50%, white 100%);
+    background: linear-gradient(to right, #454140 0%, #454140 50%, #474342 50%, #474342 100%);
     background-size: 200% 100%;
     background-position: 100% 0;
-    transition: background-position 1s, color 1s;
+    font-weight: bold;
+    transition: all 1s;
 }
 
 
 #startButton button:hover {
     background-position: 0 0;
-    color: red;
+    color: rgb(31, 199, 177);
+    letter-spacing: 0.2em;
+    font-weight: bolder;
 }

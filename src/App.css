@@ -1,4 +1,13 @@
 body {
     margin: 0;
-    background-color: white;
+    background-color: #454140;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+input {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+button {
+    font-family: 'Chakra Petch', sans-serif;
 }

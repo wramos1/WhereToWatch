@@ -1,0 +1,55 @@
+#searchForm {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-height: 100%;
+    margin-bottom: 18%;
+    gap: 15px;
+}
+
+#searchLabel {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 4.5em;
+}
+
+#inputBox {
+    display: flex;
+    align-self: center;
+    font-size: 2em;
+    height: 50%;
+    width: 60%;
+    outline: none;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    transition: all 0.3s;
+    color: black;
+
+}
+
+#inputBox:focus {
+    box-shadow: 0 0 5px rgb(31, 199, 177);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgb(31, 199, 177);
+}
+
+#randomContent {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+}
+
+#randomizer {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-basis: 100%;
+    text-decoration: none;
+    color: rgb(31, 199, 177);
+    letter-spacing: 1.6px;
+}
