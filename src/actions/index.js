@@ -1,9 +1,11 @@
 import availableStreams from '../apis/availableStreams';
+import randomWord from '../apis/randomWord';
 import {
     GET_TYPE,
     GET_SERVICE,
     GET_KEYWORD,
-    GET_RESULTS
+    GET_RESULTS,
+    GET_RANDOWORD
 } from './types';
 
 
@@ -31,17 +33,26 @@ export const getKeyword = (keyword) => {
 
 
 export const getResults = () => async (dispatch, getState) => {
+
     const { type } = getState().params;
     const { service } = getState().params;
     const { keyword } = getState().params;
+    const { randomWord } = getState().params;
 
     const response = await availableStreams.get('', {
         params: {
             type: type,
             service: service,
-            keyword: keyword
+            keyword: keyword || randomWord
         }
     });
 
     dispatch({ type: GET_RESULTS, payload: response.data });
 };
+
+export const getRandomWord = () => async (dispatch) => {
+    const response = await randomWord.get('');
+
+    dispatch({ type: GET_RANDOWORD, payload: response.data });
+
+}
