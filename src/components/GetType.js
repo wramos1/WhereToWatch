@@ -9,36 +9,40 @@ const GetType = () => {
     const dispatch = useDispatch();
 
     const pickedMovie = () => {
-        dispatch(getType('movie'))
-
-    }
+        dispatch(getType('movie'));
+    };
 
     const pickedShow = () => {
-        dispatch(getType('show'))
-    }
-
-
+        dispatch(getType('series'));
+    };
 
     return (
         <div id='splitScreenDecision'>
 
-            <Link to='/service' id='pickMovie'>
-                <div onClick={pickedMovie}>
+            <Link to='/service' id='pickMovie' onClick={pickedMovie}>
+
+                <div>
+
                     <h1>Movie</h1>
+
                 </div>
+
             </Link>
 
-            <Link to='/service' id='pickShow'>
-                <div onClick={pickedShow}>
-                    <h1>Show</h1>
-                </div>
-            </Link>
+            <Link to='/service' id='pickShow' onClick={pickedShow}>
 
+                <div>
+
+                    <h1>Series</h1>
+
+                </div>
+
+            </Link>
 
         </div>
-    )
+    );
 
-}
+};
 
 
 export default connect(null, { getType })(GetType);

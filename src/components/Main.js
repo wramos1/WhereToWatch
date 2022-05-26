@@ -22,7 +22,7 @@ const Main = () => {
             </Link>
 
         </div>
-    )
-}
+    );
+};
 
 export default Main;
