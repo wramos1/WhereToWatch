@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/WhereToWatch/static/css/main.7e062826.css",
-    "main.js": "/WhereToWatch/static/js/main.5066ff7b.js",
-    "static/media/hboLogo.jpeg": "/WhereToWatch/static/media/hboLogo.8f1c6df09f0950dfbf5b.jpeg",
-    "static/media/appleLogo.jpeg": "/WhereToWatch/static/media/appleLogo.f9611e83a3ce1f8a102c.jpeg",
-    "static/media/disneyLogo.jpeg": "/WhereToWatch/static/media/disneyLogo.b2e0f877c46282607391.jpeg",
-    "static/media/primeLogo.jpeg": "/WhereToWatch/static/media/primeLogo.046ce9b2ba160113982b.jpeg",
-    "static/media/showtimeLogo.jpeg": "/WhereToWatch/static/media/showtimeLogo.28c0ae3243f088c4d791.jpeg",
-    "static/media/paramountLogo.jpeg": "/WhereToWatch/static/media/paramountLogo.fc6e97704ba28a654ea6.jpeg",
-    "static/media/huluLogo.jpeg": "/WhereToWatch/static/media/huluLogo.fe295f1655cf81ecee0f.jpeg",
-    "static/media/netflixLogo.jpeg": "/WhereToWatch/static/media/netflixLogo.745235d54b3b41b2069e.jpeg",
-    "static/media/peacockLogo.jpeg": "/WhereToWatch/static/media/peacockLogo.4e808d842c04ba0aa656.jpeg",
-    "index.html": "/WhereToWatch/index.html",
-    "main.7e062826.css.map": "/WhereToWatch/static/css/main.7e062826.css.map",
-    "main.5066ff7b.js.map": "/WhereToWatch/static/js/main.5066ff7b.js.map"
+    "main.css": "/willyamramos.dev/WhereToWatch/static/css/main.7e062826.css",
+    "main.js": "/willyamramos.dev/WhereToWatch/static/js/main.c9f0bd7a.js",
+    "static/media/hboLogo.jpeg": "/willyamramos.dev/WhereToWatch/static/media/hboLogo.8f1c6df09f0950dfbf5b.jpeg",
+    "static/media/appleLogo.jpeg": "/willyamramos.dev/WhereToWatch/static/media/appleLogo.f9611e83a3ce1f8a102c.jpeg",
+    "static/media/disneyLogo.jpeg": "/willyamramos.dev/WhereToWatch/static/media/disneyLogo.b2e0f877c46282607391.jpeg",
+    "static/media/primeLogo.jpeg": "/willyamramos.dev/WhereToWatch/static/media/primeLogo.046ce9b2ba160113982b.jpeg",
+    "static/media/showtimeLogo.jpeg": "/willyamramos.dev/WhereToWatch/static/media/showtimeLogo.28c0ae3243f088c4d791.jpeg",
+    "static/media/paramountLogo.jpeg": "/willyamramos.dev/WhereToWatch/static/media/paramountLogo.fc6e97704ba28a654ea6.jpeg",
+    "static/media/huluLogo.jpeg": "/willyamramos.dev/WhereToWatch/static/media/huluLogo.fe295f1655cf81ecee0f.jpeg",
+    "static/media/netflixLogo.jpeg": "/willyamramos.dev/WhereToWatch/static/media/netflixLogo.745235d54b3b41b2069e.jpeg",
+    "static/media/peacockLogo.jpeg": "/willyamramos.dev/WhereToWatch/static/media/peacockLogo.4e808d842c04ba0aa656.jpeg",
+    "index.html": "/willyamramos.dev/WhereToWatch/index.html",
+    "main.7e062826.css.map": "/willyamramos.dev/WhereToWatch/static/css/main.7e062826.css.map",
+    "main.c9f0bd7a.js.map": "/willyamramos.dev/WhereToWatch/static/js/main.c9f0bd7a.js.map"
   },
   "entrypoints": [
     "static/css/main.7e062826.css",
-    "static/js/main.5066ff7b.js"
+    "static/js/main.c9f0bd7a.js"
   ]
 }
