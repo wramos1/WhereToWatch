@@ -3,4 +3,4 @@ import paramsReducer from './paramsReducer';
 
 export default combineReducers({
     params: paramsReducer
-})
+});

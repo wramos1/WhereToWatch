@@ -2,14 +2,16 @@ import {
     GET_TYPE,
     GET_SERVICE,
     GET_KEYWORD,
-    GET_RESULTS
+    GET_RESULTS,
+    GET_RANDOWORD
 } from '../actions/types';
 
 const INITIAL_STATE = {
     type: null,
     service: null,
     keyword: null,
-    apiResults: null
+    apiResults: null,
+    randomWord: null
 };
 
 export default (state = INITIAL_STATE, action) => {
@@ -22,7 +24,9 @@ export default (state = INITIAL_STATE, action) => {
             return { ...state, keyword: action.payload };
         case GET_RESULTS:
             return { ...state, apiResults: action.payload };
+        case GET_RANDOWORD:
+            return { ...state, randomWord: action.payload };
         default:
             return state;
-    }
-}
+    };
+};
