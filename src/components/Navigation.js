@@ -5,9 +5,10 @@ const Navigation = () => {
     const navigate = useNavigate();
 
     const urlElements = window.location.href.split('/');
+    console.log(urlElements)
 
     const goBack = () => {
-        if (urlElements[3] !== '') {
+        if (urlElements[3] !== 'WhereToWatch') {
             return (
                 <button
                     style={{
