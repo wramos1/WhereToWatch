@@ -15,7 +15,7 @@ const App = () => {
             <BrowserRouter>
                 <div>
                     <Routes>
-                        <Route path='/' element={<Main />} />
+                        <Route path={process.env.PUBLIC_URL} element={<Main />} />
                         <Route path='/type' element={<GetType />} />
                         <Route path='/service' element={<GetService />} />
                         <Route path='/search' element={<SearchBar />} />

@@ -40,10 +40,10 @@ const Navigation = () => {
                         color: ' rgb(31, 199, 177)',
                         backgroundColor: 'black'
                     }}
-                    onClick={() => window.location.replace('/')}
+                    onClick={() => window.location.replace(process.env.PUBLIC_URL)}
                 >
                     Start Over
-                </button>
+                </button >
             );
         };
     };
