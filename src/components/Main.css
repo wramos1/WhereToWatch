@@ -34,8 +34,8 @@ body {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    margin: 5% 38% 0 38%;
-    font-size: 0.9rem;
+    margin: 5% 0 0 0;
+    font-size: 1rem;
 }
 
 #startButton button {
@@ -87,15 +87,15 @@ body {
 
 @media (max-width: 600px) {
     #title {
-        font-size: 3vmin;
+        font-size: 3.8vmin;
     }
 
     #subtitle {
-        font-size: 2vmin;
+        font-size: 2.8vmin;
     }
 
     #startButton button {
-        padding: 3px 12px;
-        font-size: 1.5vmin;
+        padding: 5px 40px;
+        font-size: 1.8vmin;
     }
 }
