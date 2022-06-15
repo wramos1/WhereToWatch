@@ -77,3 +77,11 @@
     }
 
 }
+
+@media (max-width: 500px) {
+
+    #loading,
+    #noResults {
+        font-size: 1.9vmax;
+    }
+}

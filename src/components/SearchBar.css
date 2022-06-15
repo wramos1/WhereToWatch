@@ -53,3 +53,18 @@
     color: rgb(31, 199, 177);
     letter-spacing: 1.6px;
 }
+
+@media (max-width: 500px) {
+    #inputBox {
+        font-size: 3vmax;
+    }
+
+    #randomContent {
+        font-size: 2.6vmax;
+    }
+
+    #randomizer {
+        font-size: 5vmax;
+    }
+
+}

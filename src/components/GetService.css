@@ -33,3 +33,15 @@
     transform: translateY(-7px);
     border: 2px solid rgb(31, 199, 177);
 }
+
+@media (max-width: 550px) {
+    #serviceTitle {
+        font-size: 4.3vmin;
+    }
+
+    .streamingLogo {
+        justify-content: center;
+        align-items: center;
+        width: 40vmax;
+    }
+}

@@ -2,13 +2,19 @@ body {
     margin: 0;
 }
 
+#mainPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
 
 #title {
     color: rgb(31, 199, 177);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20%;
     font-size: 2.5em;
     letter-spacing: 1.1em;
 }
@@ -52,4 +58,44 @@ body {
     color: rgb(31, 199, 177);
     letter-spacing: 0.2em;
     font-weight: bolder;
+}
+
+@media (max-width: 1100px) {
+    #title {
+        font-size: 3vmax;
+    }
+
+    #startButton button {
+        font-size: 0.75em;
+    }
+}
+
+@media (max-width: 900px) {
+    #title {
+        font-size: 2.5vmax;
+    }
+
+    #subtitle {
+        font-size: 2vmax;
+    }
+
+    #startButton button {
+        padding: 5px 12px;
+        font-size: 1.4vw;
+    }
+}
+
+@media (max-width: 600px) {
+    #title {
+        font-size: 3vmin;
+    }
+
+    #subtitle {
+        font-size: 2vmin;
+    }
+
+    #startButton button {
+        padding: 3px 12px;
+        font-size: 1.5vmin;
+    }
 }
