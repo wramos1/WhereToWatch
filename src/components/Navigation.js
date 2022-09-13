@@ -5,7 +5,6 @@ const Navigation = () => {
     const navigate = useNavigate();
 
     const urlElements = window.location.href.split('/');
-    console.log(urlElements)
 
     const goBack = () => {
         if (urlElements[3] !== 'WhereToWatch') {
@@ -31,7 +30,7 @@ const Navigation = () => {
     };
 
     const startOver = () => {
-        if (urlElements[3] === 'results') {
+        if (urlElements[4] === 'results') {
             return (
                 <button
                     style={{

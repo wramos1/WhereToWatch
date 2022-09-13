@@ -4,6 +4,29 @@ import './ResultsList.css'
 
 const ResultsList = (props) => {
 
+    const mapResults = () => {
+        if (props) {
+            return props.data.results.map(result => {
+                return (
+                    <div key={result.imdbID} id='results'>
+                        <img
+                            className='result'
+                            alt='imgPoster'
+                            src={`https://image.tmdb.org/t/p/w300${result.posterPath}`}
+                        />
+                        <div
+                            className='resultOverview'
+                            onClick={() => validateStreamingLocale()}
+                        >
+                            {result.overview}
+                        </div>
+
+                    </div>
+                )
+            });
+        }
+    }
+
     const validateStreamingLocale = () => {
         if (props.service === 'disney') {
 
@@ -40,29 +63,23 @@ const ResultsList = (props) => {
             )
         }
 
-        return props.data.results.map(result => {
-            return (
-                <div key={result.imdbID} id='results'>
-                    <img
-                        className='result'
-                        alt='imgPoster'
-                        src={`https://image.tmdb.org/t/p/w300${result.posterPath}`}
-                    />
-                    <div
-                        className='resultOverview'
-                        onClick={() => validateStreamingLocale()}
-                    >
-                        {result.overview}
-                    </div>
+        return (
+            <div id="mainResults">
+                <h1>
+                    Results
+                </h1>
 
+                <div id="resultsContainer">
+                    {mapResults()}
                 </div>
-            )
-        });
+
+            </div>
+        )
     };
 
 
     return (
-        <div id='resultsContainer'>
+        <div>
             {renderList()}
         </div>
     );
