@@ -18,7 +18,9 @@ const Navigation = () => {
                         fontSize: '1.4em',
                         cursor: 'pointer',
                         color: 'rgb(31, 199, 177)',
-                        backgroundColor: 'black'
+                        padding: '0.3em 0.5em',
+                        backgroundColor: 'black',
+                        boxShadow: 'rgba(31, 199, 177, 0.418) 0px -30px 36px -28px inset'
                     }}
                     onClick={() => navigate(-1)}
                 >
@@ -38,8 +40,10 @@ const Navigation = () => {
                         right: '0',
                         fontSize: '1.4em',
                         cursor: 'pointer',
-                        color: ' rgb(31, 199, 177)',
-                        backgroundColor: 'black'
+                        color: 'rgb(31, 199, 177)',
+                        padding: '0.3em 0.5em',
+                        backgroundColor: 'black',
+                        boxShadow: 'rgba(31, 199, 177, 0.418) 0px -30px 36px -28px inset'
                     }}
                     onClick={() => window.location.replace(process.env.PUBLIC_URL)}
                 >

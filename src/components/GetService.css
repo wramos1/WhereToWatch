@@ -3,7 +3,7 @@
     align-content: center;
     justify-content: center;
     font-size: 2rem;
-    color: rgb(31, 199, 177);
+    color: rgb(44, 255, 227);
     letter-spacing: 0.2em;
 }
 
@@ -25,13 +25,14 @@
     height: 100%;
     border: 2px solid;
     transition: all 1s;
-    filter: brightness(25%);
+    filter: brightness(50%);
+    border: 2px solid white;
 }
 
 .streamingLogo:hover {
     filter: brightness(100%);
     transform: translateY(-7px);
-    border: 2px solid rgb(31, 199, 177);
+    border: 2px solid rgb(44, 255, 227);
 }
 
 @media (max-width: 550px) {
