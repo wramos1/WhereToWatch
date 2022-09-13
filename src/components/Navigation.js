@@ -7,7 +7,7 @@ const Navigation = () => {
     const urlElements = window.location.href.split('/');
 
     const goBack = () => {
-        if (urlElements[3] !== 'WhereToWatch') {
+        if (urlElements[4] === '#') {
             return (
                 <button
                     style={{
@@ -30,7 +30,7 @@ const Navigation = () => {
     };
 
     const startOver = () => {
-        if (urlElements[4] === 'results') {
+        if (urlElements[5] === 'results') {
             return (
                 <button
                     style={{
