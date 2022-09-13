@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WhereToWatch/static/css/main.30f3c455.css",
-    "main.js": "/WhereToWatch/static/js/main.65ab63d1.js",
+    "main.css": "/WhereToWatch/static/css/main.5a230560.css",
+    "main.js": "/WhereToWatch/static/js/main.be9c91db.js",
     "static/media/hboLogo.jpeg": "/WhereToWatch/static/media/hboLogo.8f1c6df09f0950dfbf5b.jpeg",
     "static/media/appleLogo.jpeg": "/WhereToWatch/static/media/appleLogo.f9611e83a3ce1f8a102c.jpeg",
     "static/media/disneyLogo.jpeg": "/WhereToWatch/static/media/disneyLogo.b2e0f877c46282607391.jpeg",
@@ -12,11 +12,11 @@
     "static/media/netflixLogo.jpeg": "/WhereToWatch/static/media/netflixLogo.745235d54b3b41b2069e.jpeg",
     "static/media/peacockLogo.jpeg": "/WhereToWatch/static/media/peacockLogo.4e808d842c04ba0aa656.jpeg",
     "index.html": "/WhereToWatch/index.html",
-    "main.30f3c455.css.map": "/WhereToWatch/static/css/main.30f3c455.css.map",
-    "main.65ab63d1.js.map": "/WhereToWatch/static/js/main.65ab63d1.js.map"
+    "main.5a230560.css.map": "/WhereToWatch/static/css/main.5a230560.css.map",
+    "main.be9c91db.js.map": "/WhereToWatch/static/js/main.be9c91db.js.map"
   },
   "entrypoints": [
-    "static/css/main.30f3c455.css",
-    "static/js/main.65ab63d1.js"
+    "static/css/main.5a230560.css",
+    "static/js/main.be9c91db.js"
   ]
 }
